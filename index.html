@@ -12,36 +12,56 @@
         .container{
             display: flex;
             height: 100vh;
-            display: flex;
-            justify-content: center;
-            
         }
         .same-margin{
             margin: auto;
-            display: flex;
-            justify-content: center;
+           
         }
-        .div1{
+        .div1 p{
+            text-align: justify;
+            color: gray;
+            font-size: 14px;
+        }
+        .div1{ text-align: justify;
             width: 60%;  
             display: flex;
             justify-content: center;
+            text-align: justify;
+            padding: 0px 80px 0px 30px ;
         }
         .div2{
             width: 40%;
             display: flex;
             justify-content: center;
         }
+        .div1 h1 span{
+            color:#7E74F1 ;
+            
+        }
+        #section-skills{
+            text-align: center;
+        }
+        .skill-container{
+            display: flex;
+            justify-content: center;
+        }
+        .skill-card{
+            background-color:#ffff;
+            color: #000;
+            width: 30%;
+            margin: auto;
+        }
     </style>
 
    </head>
    <body>
-    <section>
+    <section  id="home-section ">
         <div class="container">
             <div class="same-margin div1">
                 <div class="content">
-                    <h2>
-                        John<span>Doe</span>
-                    </h2>
+                    <h1>
+                        John<span> Doe.</span>
+                    </h1>
                     <p>
                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id soluta porro repellendus. Explicabo, sapiente ipsum quod soluta facilis, doloribus . 
 
@@ -51,6 +71,32 @@
             </div>
             <div class="same-margin div2">
                 <img src="./lucas-gouvea-aoEwuEH7YAs-unsplash.jpg" height="340" width="300" alt="user image ">
+            </div>
+        </div>
+    </section>
+
+    <section id="section-skills">
+        <h1>Specialized In  </h1>
+        <div class="skill-container">
+            <div class="skill-card skill-1">
+                <h2>
+                    Html
+                </h2>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat atque hic facere nisi at magnam 
+                </p>
+            </div>
+            <div class="skill-card skill-2">
+                <h2>CSS</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat atque hic facere nisi at magnam 
+                </p>
+            </div>
+            <div class="skill-card skill-3">
+                <h2>Java Script</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat atque hic facere nisi at magnam 
+                </p>
             </div>
         </div>
     </section>
