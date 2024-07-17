@@ -5,9 +5,33 @@
         pprtfolio v1
     </title>
     <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
         body{
             background-color: black;
             color: white;
+        }
+
+        /* headedr stles */
+
+
+        header{
+            text-align: center;
+            position:sticky;
+            top: 0;
+            padding: 10px 0px ;
+            background-color: #F4D03F;
+        }
+        .navigation-bar ul li{
+            display: inline;
+            
+        }
+        .navigation-bar ul li a{
+            text-decoration: none;
+            color: #ffffff;
+            padding: 0px 25px;
         }
         .container{
             display: flex;
@@ -44,7 +68,7 @@
         .skill-container{
             display: flex;
             justify-content: center;
-            height: 80vh;
+            height: 90vh;
         }
         .skill-card{
             background-color:#ffff;
@@ -72,7 +96,7 @@
             display: flex;
             justify-content: center;
             color: gray;
-            height: 80vh;    
+            height: 90vh;    
         }
         .work-content{
             border: 1px solid gray;
@@ -136,10 +160,41 @@
             color: white;
             background-color: #F4D03F;
         }
+        .footer-container p samp{
+            display:flex;
+            color: #F4D03F;
+            justify-content: center;
+        }
+        .footer-container p{
+            padding: 5px 0px;
+            display:flex;
+            gap: 5px;
+            justify-content: center;
+        }
+
+        footer{
+            background-color: #7E74F1;
+            padding: 9px 9px;
+        }
+
     </style>
 
    </head>
    <body>
+
+ <header>
+    <div class="navigation-bar">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#section-skills">servisce</a></li>
+                <li><a href="#worked-on">work</a></li>
+                <li><a href="#testimonial">testmonials</a></li>
+            </ul>
+        </nav>
+    </div>
+ </header>
+    
     <section  id="home-section ">
         <div class="container">
             <div class="same-margin div1">
@@ -236,5 +291,12 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="footer-container">
+            <p>
+                &COPY;Tanga<samp>  Prince.</samp>
+            </p>
+        </div>
+    </footer>
    </body>
 </html>
